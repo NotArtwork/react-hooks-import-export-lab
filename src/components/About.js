@@ -1,4 +1,7 @@
 import React from "react";
+import { findRenderedComponentWithType } from "react-dom/test-utils";
+import { image } from "../data/user.js"
+
 
 function About() {
   return (
@@ -9,3 +12,5 @@ function About() {
     </div>
   );
 }
+
+export default About
